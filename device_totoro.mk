@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     SamsungServiceMode \
     libcopybit \
     gralloc.totoro \
+    libhardware_legacy \
     bdaddr_read \
     toggleshutter \
     patchlcs \
@@ -187,8 +188,9 @@ vendor/samsung/totoro/proprietary/system/lib/libcameraservice.so:system/lib/libc
 vendor/samsung/totoro/proprietary/system/lib/libcaps.so:system/lib/libcaps.so \
 
 #sensores
-#vendor/samsung/totoro/proprietary/system/lib/libdhwr.so:system/lib/libdhwr.so 
+
 PRODUCT_COPY_FILES += \
+vendor/samsung/totoro/proprietary/system/lib/libdhwr.so:system/lib/libdhwr.so 
 vendor/samsung/totoro/proprietary/system/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
 vendor/samsung/totoro/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
 vendor/samsung/totoro/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
@@ -239,6 +241,7 @@ vendor/samsung/totoro/proprietary/system/lib/libsoc.so:system/lib/libsoc.so \
 vendor/samsung/totoro/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
 vendor/samsung/totoro/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
 vendor/samsung/totoro/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
+vendor/samsung/totoro/proprietary/system/bin/glgps:system/bin/glgps \
 vendor/samsung/totoro/proprietary/system/bin/gps.cer:system/bin/gps.cer \
 vendor/samsung/totoro/proprietary/system/etc/gps.conf:system/etc/gps.conf \
 

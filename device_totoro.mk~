@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     SamsungServiceMode \
     libcopybit \
     gralloc.totoro \
+    libhardware_legacy \
     bdaddr_read \
     toggleshutter \
     patchlcs \
