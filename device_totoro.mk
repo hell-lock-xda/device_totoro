@@ -188,9 +188,8 @@ vendor/samsung/totoro/proprietary/system/lib/libcameraservice.so:system/lib/libc
 vendor/samsung/totoro/proprietary/system/lib/libcaps.so:system/lib/libcaps.so \
 
 #sensores
-
+#vendor/samsung/totoro/proprietary/system/lib/libdhwr.so:system/lib/libdhwr.so 
 PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/libdhwr.so:system/lib/libdhwr.so 
 vendor/samsung/totoro/proprietary/system/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
 vendor/samsung/totoro/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
 vendor/samsung/totoro/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
